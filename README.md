@@ -1,11 +1,15 @@
 # simpleeventos
-Una pequeña aplicación que permite manejar eventos o noticias de una manera muy simple basadas en un archivo txt, que para webs pequeñas basadas en php les puede servir
+Una pequeña aplicación que permite manejar eventos o noticias de una manera muy simple basadas en un archivo txt, que para webs pequeñas es muy útil.
 
 Sintaxis del archivo
 --------------
 Sintaxis del archivo eventos.txt:
 
-<pre><fecha de validez>###<Evento></pre>
+<pre>
+```php
+	<fecha de validez>###<Evento>
+```
+</pre>
 
 Por ejemplo:
 
