@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Zona Protegida -- Admin"
+AuthUserFile /path/to/.htpasswd
+
+Require valid-user
