@@ -6,14 +6,14 @@ Sintaxis del archivo
 Sintaxis del archivo eventos.txt:
 
 <pre>
-```php
-	<fecha de validez>###<Evento>
-```
+	"fecha formato YYYY-MM-DD"###"Evento"
 </pre>
 
 Por ejemplo:
 
-<pre>2015-11-14###<u>Sábado 14 de Noviembre:</u> Gran evangelización en Monte Bello desde las 8 AM.</pre>
+<pre>
+	2015-11-14###<u>Sábado 14 de Noviembre:</u> Gran evangelización en Monte Bello desde las 8 AM.
+</pre>
 
 Recuerde
 --------------
