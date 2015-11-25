@@ -9,6 +9,9 @@
 	while(!feof($fp)) {
 		$linea = fgets($fp);
 		$elevento = explode("###", $linea);
+		//Tratar marca BOM del archivo cuando lo generan desde windows
+		if(strlen($elevento[0])==13)
+			$elevento[0] = substr($elevento[0], 3);
 		$fecha = new DateTime($elevento[0]);
 		$contenido = $elevento[1];
 		$eventos[] = array( (int)(date_diff($hoy, $fecha)->format('%R%a')), $contenido);
